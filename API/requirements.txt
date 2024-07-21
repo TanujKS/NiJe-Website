@@ -1,0 +1,4 @@
+fastapi==0.104.1
+Uvicorn==0.24.0.post1
+SQLAlchemy==2.0.23
+mysql-connector-python==8.2.0
