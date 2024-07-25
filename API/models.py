@@ -14,5 +14,9 @@ class Story_Content(Base):
      __tablename__ = 'story_content'
      story_content_id = Column(Integer,primary_key=True)
      story_id = Column(Integer)
-     content = Column(String(1000))
+     content = Column(String(5000))
 
+class Email(Base):
+     __tablename__ = 'email'
+     email_id = Column(Integer,primary_key=True)
+     email_address = Column(String(100))

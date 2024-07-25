@@ -17,3 +17,9 @@ class Story_Content(BaseModel):
     story_content: str
     class Config:
         from_attributes = True
+
+class Email(BaseModel):
+    email_id: int
+    email_address: str
+    class Config:
+        from_attributes = True
